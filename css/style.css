@@ -1,58 +1,120 @@
-.navbar{
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: navy;
-padding: 20px;
+html, body{
+  height: 100%;
+  width: 100%;
 }
-.title{
-display: flex;
-align-items: stretch;
-background-color: white;
-padding: 20px;
+*{
+margin: 0;
+padding: 0;
 }
-.headline{
-    color: royalblue;
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.nav1{
+  background-color: navy;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 .box{
+    text-align: center;
+    border: 2px solid orange;
     background-color: white;
-    height: 50%;
-    width: 30%;  
-    flex-direction: column;
-    display: flex;
     justify-content: center;
     align-items: center;
+    width: 20%;
 }
 
-.item{
-    display: flex;
-    justify-content: left;
-    align-items: center;
+.nav2{
+display: flex;
+justify-content: space-around;
+padding: 10px;
 }
 
+select{
+  width: 70%;
+}
+
+input + button:hover {
+  background-color: white;
+  color: black;
+}
+input + button {
+  background-color: black;
+  color: white;
+  margin-left: -4px;
+}
+
+main{
+  margin-top: 10px;
+}
+
+section{
+  display: flex;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
 .content{
-    background-color: white;
-    height: 70%;
-    width: 100%;  
-    flex-direction: column;
-    align-items: left;
-    margin-top: -9px;
+  padding: 25px;
 }
+
+h5{
+  font-weight: normal;
+  padding: 5px;
+}
+
 .overview{
-    width: 100%;
-    overflow-wrap: normal;
-    margin-top: 0px;
+  padding: 5px
 }
 
-.image{
-    padding: 10px;
-    height: 70%;
+.button{
+  padding: 5px
 }
-
 .continue{
-    background-color: orangered;
-    color: white;
-    height: 30px;
-    width: 10%;
+  padding: 5px; 
+  color: white; 
+  background-color: orangered;
 }
+
+.continue:hover{
+   color: black;
+}
+
+.title{
+  color:mediumblue;
+  padding: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .nav1 {
+    width: 100%;
+  }
+  .nav1{
+    background-color: navy;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .box{
+    text-align: center;
+    border: 2px solid orange;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+}
+
+
+
+

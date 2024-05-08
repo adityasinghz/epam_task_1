@@ -7,62 +7,89 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <div class="navbar">
+    <header>
+      <div class="nav1">
         <div class="box">
-          <div style="font-weight: bold;">NEWS BLOG</div>
-          <div>WORLDWIDE NEWS</div>
+          <h4>News Blog</h4>
+          <p>World Wide News</p>
         </div>
       </div>
-      <div class="title">
-        <div class="box">
-          <div>SELECT CATEGORY</div>
-          <select style="width: 40%;">
-            <option>All</option>
-            <option>select1</option>
-            <option>select2</option>
+      <div class="nav2">
+        <div>
+          <p>SELECT CATEGORY</p>
+          <select>
+            <option>ALL</option>
+            <option>Select1</option>
+            <option>Select2</option>
           </select>
         </div>
-        <div class="box">
-         <h2>ALL NEWS</h2> 
-        </div>
-        <div class="box">
-          <div>SUBSCRIBE</div>
-          <div><input type="email" placeholder="email address"><button style="background-color: black; color: white">subscribe</button></div>
+        <h2 style="margin-left: 90px">ALL NEWS</h2>
+        <div>
+          <p>SUBSCRIBE</p>
+          <input type="email" placeholder="email address" />
+          <button type="submit">Subscribe</button>
         </div>
       </div>
-      <hr>
-      <div class="news">
-          <div class="item">
-           <div class="image"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QAHhABAAICAwEBAQAAAAAAAAAAAAECAxESE2FRITH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A9jWi2tD1oupR2rhCUosrVZWiyKJWoStVtamip61ZVFarKwatVkVFRWDxCa1NoaTWDIqlBKEgFcwSyyVdoUVWhReGi0KbwIzTH6D2j9CpGWtV1aJrC2kJWUVosihqweIFLWqytUxB4hmtREVNEGTBVREH0ElBEAQkogJLJREkseS2UVW/imy6yqyiiY/QaY/QIrpC6sK6wurCMnrCyILWDxCNYaINEIg8Co0IToaAQkQkAABUSJSiQRJLHklgV2V2WyrsIpkJmP1K0VUXVUUXVNYXVWQrqeEaw8GgsGhFSlABIQkUAAAWUyiQElsmUSCuVdlkksCuUiQDJjn8aKyx47NNLNMNNFkKaStiU1cPBoLBoFMEbCCQjY2BgjY2KJRKUAgsmLIEksnkkikACDlY7NWOXOxXbMdm2Gykrqyy0supINFZNEqok8SB9jZdjaKfYLsbAw2XY2Bt+gmxtBMiSzI2KiSymUSgUACvN4rtmK7lYrtmK61mOlS7RSzBju0UutGytjxZmrf8WVsqL9jarkOQLeQ5K+Q5At2NquQ5ILOQ5K+Q5CrNjavkOSKfaJksyWZQPtBNpRXi8WRsxZHIxZW3FkKjq48jTTI5mPK00ytZpHRrdZF2GmRZXItSNkXTzZOxPYUa+Y5s3YOxKRp5jsZuwdhRp7Bz9ZuwdiUaefo5+s3YnsFaOfqJuz9iJyIrRzDL2gHhcWVsw5XFxZW3Fl9c61HYx5PWmmVyMWZppmWkdWuVZXL65tMyyuZekjpRk9HZ6wRmNGb06I3xkHYwxm9T3J0Rt7B2MXd6O306I29iexh7R3erSN3aO1h7vUTmKsbu0s5WHv8ASzn9XE1u7fUOfOcNI8XitLXjtIDg6Y1Y7T9aK2n6gCr62n6traQAPFp+pi0/QANFpNFpQATylHKQAG5RNp+gAibz9RN5+gNYyWbz9Ja0/QG8Z1XN5+gBtl//2Q=="></div> 
-            <div class="content">
-                <h2 class="headline">Title One</h2>
-                <p>Posted on June 2019</p>
-                <p class="overview">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dignissimos, eum, aperiam harum est consequatur incidunt dolorem autem nostrum, dicta voluptatum soluta animi commodi inventore esse quo atque blanditiis natus.</p>
-                <button class="continue">Continue Reading</button>
-            </div>
+      <hr />
+    </header>
+    <main>
+      <section>
+        <img class="image" src="./image/car.jpg" />
+        <div class="content">
+          <h2 class="title">Title One</h2>
+          <h5 style="padding: 5px">
+            posted on 29 june, 2019 //Category, Category One
+          </h5>
+          <p style="padding: 5px">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            nostrum, quisquam, numquam neque reiciendis quidem sunt animi
+            corporis molestiae accusantium, laborum molestias? Quisquam
+            exercitationem tempora, iusto deserunt porro consequuntur aliquid.
+          </p>
+          <div style="padding: 5px">
+            <button class="continue">Continue Reading</button>
           </div>
-          <hr>
-          <div class="item">
-            <div class="image"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QAHhABAAICAwEBAQAAAAAAAAAAAAECAxESE2FRITH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A9jWi2tD1oupR2rhCUosrVZWiyKJWoStVtamip61ZVFarKwatVkVFRWDxCa1NoaTWDIqlBKEgFcwSyyVdoUVWhReGi0KbwIzTH6D2j9CpGWtV1aJrC2kJWUVosihqweIFLWqytUxB4hmtREVNEGTBVREH0ElBEAQkogJLJREkseS2UVW/imy6yqyiiY/QaY/QIrpC6sK6wurCMnrCyILWDxCNYaINEIg8Co0IToaAQkQkAABUSJSiQRJLHklgV2V2WyrsIpkJmP1K0VUXVUUXVNYXVWQrqeEaw8GgsGhFSlABIQkUAAAWUyiQElsmUSCuVdlkksCuUiQDJjn8aKyx47NNLNMNNFkKaStiU1cPBoLBoFMEbCCQjY2BgjY2KJRKUAgsmLIEksnkkikACDlY7NWOXOxXbMdm2Gykrqyy0supINFZNEqok8SB9jZdjaKfYLsbAw2XY2Bt+gmxtBMiSzI2KiSymUSgUACvN4rtmK7lYrtmK61mOlS7RSzBju0UutGytjxZmrf8WVsqL9jarkOQLeQ5K+Q5At2NquQ5ILOQ5K+Q5CrNjavkOSKfaJksyWZQPtBNpRXi8WRsxZHIxZW3FkKjq48jTTI5mPK00ytZpHRrdZF2GmRZXItSNkXTzZOxPYUa+Y5s3YOxKRp5jsZuwdhRp7Bz9ZuwdiUaefo5+s3YnsFaOfqJuz9iJyIrRzDL2gHhcWVsw5XFxZW3Fl9c61HYx5PWmmVyMWZppmWkdWuVZXL65tMyyuZekjpRk9HZ6wRmNGb06I3xkHYwxm9T3J0Rt7B2MXd6O306I29iexh7R3erSN3aO1h7vUTmKsbu0s5WHv8ASzn9XE1u7fUOfOcNI8XitLXjtIDg6Y1Y7T9aK2n6gCr62n6traQAPFp+pi0/QANFpNFpQATylHKQAG5RNp+gAibz9RN5+gNYyWbz9Ja0/QG8Z1XN5+gBtl//2Q=="></div>
-            <div class="content">
-              <h2 class="headline">Title Two</h2>
-              <p>Posted on June 2019</p>
-              <p class="overview">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas aspernatur asperiores distinctio quis odio eius quo suscipit, quam quidem quod. Reprehenderit, eius vero? Voluptatum corporis dolorum rerum totam dignissimos.</p>
-              <button class="continue">Continue Reading</button>
-            </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <img src="./image/car1.jpg" />
+        <div class="content">
+          <h2 class="title">Title One</h2>
+          <h5>
+            posted on 29 june, 2019 //Category, Category One
+          </h5>
+          <p class="overview">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            nostrum, quisquam, numquam neque reiciendis quidem sunt animi
+            corporis molestiae accusantium, laborum molestias? Quisquam
+            exercitationem tempora, iusto deserunt porro consequuntur aliquid.
+          </p>
+          <div class="button">
+            <button class="continue">Continue Reading</button>
           </div>
-          <hr>
-          <div class="item">
-            <div class="image"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QAHhABAAICAwEBAQAAAAAAAAAAAAECAxESE2FRITH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A9jWi2tD1oupR2rhCUosrVZWiyKJWoStVtamip61ZVFarKwatVkVFRWDxCa1NoaTWDIqlBKEgFcwSyyVdoUVWhReGi0KbwIzTH6D2j9CpGWtV1aJrC2kJWUVosihqweIFLWqytUxB4hmtREVNEGTBVREH0ElBEAQkogJLJREkseS2UVW/imy6yqyiiY/QaY/QIrpC6sK6wurCMnrCyILWDxCNYaINEIg8Co0IToaAQkQkAABUSJSiQRJLHklgV2V2WyrsIpkJmP1K0VUXVUUXVNYXVWQrqeEaw8GgsGhFSlABIQkUAAAWUyiQElsmUSCuVdlkksCuUiQDJjn8aKyx47NNLNMNNFkKaStiU1cPBoLBoFMEbCCQjY2BgjY2KJRKUAgsmLIEksnkkikACDlY7NWOXOxXbMdm2Gykrqyy0supINFZNEqok8SB9jZdjaKfYLsbAw2XY2Bt+gmxtBMiSzI2KiSymUSgUACvN4rtmK7lYrtmK61mOlS7RSzBju0UutGytjxZmrf8WVsqL9jarkOQLeQ5K+Q5At2NquQ5ILOQ5K+Q5CrNjavkOSKfaJksyWZQPtBNpRXi8WRsxZHIxZW3FkKjq48jTTI5mPK00ytZpHRrdZF2GmRZXItSNkXTzZOxPYUa+Y5s3YOxKRp5jsZuwdhRp7Bz9ZuwdiUaefo5+s3YnsFaOfqJuz9iJyIrRzDL2gHhcWVsw5XFxZW3Fl9c61HYx5PWmmVyMWZppmWkdWuVZXL65tMyyuZekjpRk9HZ6wRmNGb06I3xkHYwxm9T3J0Rt7B2MXd6O306I29iexh7R3erSN3aO1h7vUTmKsbu0s5WHv8ASzn9XE1u7fUOfOcNI8XitLXjtIDg6Y1Y7T9aK2n6gCr62n6traQAPFp+pi0/QANFpNFpQATylHKQAG5RNp+gAibz9RN5+gNYyWbz9Ja0/QG8Z1XN5+gBtl//2Q=="></div> 
-            <div class="content">
-              <h2 class="headline">Title Three</h2>
-              <p>Posted on June 2019</p>
-              <p class="overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, omnis libero veritatis placeat excepturi eveniet, veniam earum blanditiis optio eos cupiditate nisi aspernatur fugiat distinctio ipsam? Maxime, neque! Ipsa, veniam!</p>
-              <button class="continue">Continue Reading</button>            
-            </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <img src="./image/car2.jpg" />
+        <div class="content">
+          <h2 class="title">Title One</h2>
+          <h5>
+            posted on 29 june, 2019 //Category, Category One
+          </h5>
+          <p class="overview">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            nostrum, quisquam, numquam neque reiciendis quidem sunt animi
+            corporis molestiae accusantium, laborum molestias? Quisquam
+            exercitationem tempora, iusto deserunt porro consequuntur aliquid.
+          </p>
+          <div class="button">
+            <button class="continue">Continue Reading</button>
           </div>
-      </div>
-    </div>
+        </div>
+      </section>
+      <hr />
+    </main>
   </body>
 </html>
